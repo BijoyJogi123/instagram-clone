@@ -7,30 +7,24 @@ import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 import { getStorage } from "firebase/storage";
 
-// TODO: Add SDKs for Firebase products that you want to use
-
-// https://firebase.google.com/docs/web/setup#available-libraries
 
 
-// Your web app's Firebase configuration
-
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-
+//here should be all the configuration for firebase
 const firebaseConfig = {
 
-  apiKey: "AIzaSyCbYYoAnWFbOzTx_we83_k1AA3CrSMQHDY",
+  apiKey: "api-key",
 
-  authDomain: "instagram-clone-5951b.firebaseapp.com",
+  authDomain: "",
 
-  projectId: "instagram-clone-5951b",
+  projectId: "",
 
-  storageBucket: "instagram-clone-5951b.appspot.com",
+  storageBucket: "",
 
-  messagingSenderId: "20906621704",
+  messagingSenderId: "",
 
-  appId: "1:20906621704:web:4e3fe2fa114cb237144abd",
+  appId: "",
 
-  measurementId: "G-3VN9FRYJK0"
+  measurementId: ""
 
 };
 
