@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+
+  .btn{
+      @apply  hover:scale-125 cursor-pointer transition-all 
+      duration-150 ease-out
+
+      
+
+  }
+
+  
+
+
+  }
+  
+  body {
+    margin: 0;
+    
+    background:black
+    
+  }
+  
